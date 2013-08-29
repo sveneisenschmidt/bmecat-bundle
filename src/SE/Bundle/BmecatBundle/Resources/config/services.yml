@@ -1,0 +1,7 @@
+parameters:
+  se.bmecat.document_builder_manager.class: 'SE\Bundle\BmecatBundle\DocumentBuilderManager'
+
+services:
+
+  se.bmecat.document_builder_manager:
+    class: '%se.bmecat.document_builder_manager.class%'
