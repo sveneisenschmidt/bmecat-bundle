@@ -30,9 +30,18 @@ class DocumentBuilderManager
     public function getDocumentBuilder($name)
     {
         if(isset($this->builders[$name]) === false) {
-            throw new UnkownDocumentBuilderException(sprintf('Unknown document builder %s.'));
+            throw new UnkownDocumentBuilderException(sprintf('Unknown document builder %s.', $name));
         }
 
         return $this->builders[$name];
+    }
+
+    /**
+     *
+     * @return \SE\Component\BMECat\DocumentBuilder[]
+     */
+    public function getAllDocumentBuilder()
+    {
+        return $this->builders;
     }
 }

@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "SE\\Bundle\\BMEcat": "src/"
+            "SE\\Bundle\\BmecatBundle": "src/"
         }
     }
 }
