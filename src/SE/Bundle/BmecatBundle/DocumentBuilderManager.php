@@ -14,7 +14,7 @@ use \SE\Component\BMECat\DocumentBuilder;
 
 /**
  *
- * @package SE\Bundle\BmecatBundle\Tests
+ * @package SE\Bundle\BmecatBundle
  * @author Sven Eisenschmidt <sven.eisenschmidt@gmail.com>
  */
 class DocumentBuilderManager
