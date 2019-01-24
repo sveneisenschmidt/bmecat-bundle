@@ -9,11 +9,11 @@
  */
 namespace SE\Bundle\BmecatBundle\Tests\DependencyInjection;
 
-use \SE\Bundle\BmecatBundle\SEBmecatBundle;
+use SE\Bundle\BmecatBundle\SEBmecatBundle;
 
-use \Symfony\Component\DependencyInjection\Compiler\ResolveParameterPlaceHoldersPass;
-use \Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass;
-use \Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Compiler\ResolveParameterPlaceHoldersPass;
+use Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  *

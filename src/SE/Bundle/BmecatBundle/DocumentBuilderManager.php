@@ -9,8 +9,8 @@
  */
 namespace SE\Bundle\BmecatBundle;
 
-use \SE\Bundle\BmecatBundle\Exception\UnkownDocumentBuilderException;
-use \SE\Component\BMECat\DocumentBuilder;
+use SE\Bundle\BmecatBundle\Exception\UnkownDocumentBuilderException;
+use SE\Component\BMECat\DocumentBuilder;
 
 /**
  *
